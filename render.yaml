@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: interview-prep-api
+    runtime: node
+    buildCommand: npm ci && npm run build -w backend
+    startCommand: npm run start -w backend
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: 24
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-3.8-flash
+      - key: FRONTEND_URL
+        sync: false
+      - key: PREMIUM_MODE
+        value: true
+      - key: PREMIUM_ACCESS_CODE
+        sync: false
+      - key: PAYMENT_LINK
+        sync: false
+      - key: TRUST_PROXY
+        value: 1

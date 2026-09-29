@@ -2,6 +2,10 @@
 
 A focused interview preparation MVP: upload a PDF/TXT resume, add a job description, get a free skill-gap analysis, generate a complete preparation pack, and download a paginated PDF.
 
+## Final delivery documentation
+
+Start with [the final project document](docs/FINAL-PROJECT-DOCUMENT.md) for implemented flows and scope. Supporting documents: [architecture and diagrams](docs/ARCHITECTURE.md), [user guide](docs/USER-GUIDE.md), [API contract](docs/API.md), [operations runbook](docs/OPERATIONS.md), [verification checklist](docs/TESTING.md), and [change record](docs/CHANGELOG.md).
+
 ## Architecture
 
 React + TypeScript + Vite + Tailwind → Express API → in-memory ResumeParserService → AiService / GeminiAiService → schema-validated JSON. React never calls Gemini or receives an API key. Shared Zod schemas keep input and response types consistent. No database, login, queue, or permanent resume storage.

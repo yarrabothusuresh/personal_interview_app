@@ -1,0 +1,6 @@
+Sample Candidate — Senior Java Engineer
+10+ years of experience developing Java backend systems.
+Built REST APIs with Spring Boot and Oracle for order processing.
+Worked on microservices and Kafka consumers for asynchronous events.
+Designed service interfaces and supported incident investigation.
+This is synthetic sample material for testing, not a real person's resume.

@@ -1,0 +1,4 @@
+Senior Java Developer
+We are looking for an experienced engineer to build and operate backend services.
+Required: Java 17+, Spring Boot, Microservices, Kafka, Docker, Kubernetes, AWS, REST APIs, CI/CD, and Generative AI exposure.
+Responsibilities include reliable event processing, cloud deployment, system design, mentoring engineers, and integrating LLM-powered features safely.

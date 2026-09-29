@@ -1,0 +1,6 @@
+{
+  "name": "interview-prep-ai", "private": true, "version": "1.0.0", "type": "module",
+  "workspaces": ["frontend", "backend"],
+  "scripts": {"dev":"concurrently -k -n api,web \"npm run dev -w backend\" \"npm run dev -w frontend\"", "build":"npm run build -w backend && npm run build -w frontend", "test":"vitest run", "start":"npm run start -w backend"},
+  "devDependencies": {"concurrently":"^9.2.1", "typescript":"^5.9.3", "vitest":"^3.2.4", "@types/node":"^24.0.0", "supertest":"^7.1.4", "@types/supertest":"^6.0.3", "jsdom":"^26.1.0", "@testing-library/react":"^16.3.0", "@testing-library/jest-dom":"^6.9.1", "@testing-library/user-event":"^14.6.1"}
+}
