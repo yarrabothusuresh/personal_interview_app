@@ -37,4 +37,6 @@ These checks remain manual and must be completed against the configured release 
 
 ## Release evidence
 
-Final automated results are recorded in `verification.txt` after this completion pass. That evidence covers local tests and compilation only. Hosted deployment, real payment processing, Docker, provider availability, and full browser visual acceptance are not certified by those results.
+On 29 September 2026, `npm test` passed all **35 tests in 5 files** and `npm run build` completed successfully for backend and frontend. The build emitted non-blocking dependency comment-annotation warnings from Zod. The results are recorded in [verification.txt](verification.txt).
+
+That evidence covers local tests and compilation only. Hosted deployment, real payment processing, Docker, provider availability, and full browser visual acceptance are not certified by those results.
